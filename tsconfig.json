@@ -18,6 +18,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "hooks/use-track-location.js", "lib/airtable.js", "lib/coffe-stores.js", "pages/api/createCoffeeStore.js", "pages/api/favouriteCoffeeStoreById.js", "pages/api/getCoffeeStoreById.js", "pages/api/getCoffeeStoreByLocation.js", "pages/api/hello.js", "pages/coffee-store/[id].js", "pages/_app.js", "pages/_document.js", "pages/index.js", "store/store-context.js", "utils/index.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "hooks/use-track-location.js", "lib/airtable.js", "lib/coffe-stores.js", "pages/api/createCoffeeStore.js", "pages/api/favouriteCoffeeStoreById.js", "pages/api/getCoffeeStoreById.js", "pages/api/getCoffeeStoreByLocation.js", "pages/api/hello.js", "pages/coffee-store/[id].js", "pages/_app.js", "pages/_document.js", "pages/index.js", "store/store-context.js", "utils/index.js", "pages/index.jsx"],
   "exclude": ["node_modules"]
 }
