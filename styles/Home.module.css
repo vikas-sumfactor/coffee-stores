@@ -11,8 +11,10 @@
   padding-right: 1rem /* 16px */;
 }
 .heroImage {
-  position: absolute;
+   position: absolute; 
   top: 0px;
+   
+  
   z-index: 1;
 }
 
@@ -32,6 +34,10 @@
   padding-bottom: 2rem;
   margin-top: 2rem;
   color: var(--text-white-100);
+}
+
+.sectionWrapper {
+  margin-top: 5rem;
 }
 
 /** Breakpoints:
@@ -66,6 +72,7 @@
   }
   .heroImage {
     right: 20%;
+    
   }
 
   .cardLayout {

@@ -6,7 +6,7 @@
   /* --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255; */
-  background-color: yellowgreen;
+  background-color: cyan
 }
 
 @media (prefers-color-scheme: dark) {
@@ -35,8 +35,49 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: #373b64;
-  height: 100%;
+  /* height: 100%; */
 
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+}
+p {
+  font-weight: 500;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+pre {
+  margin: 0;
+}
+button {
+  background-color: transparent;
+  background-image: none;
+  font-weight: 600;
+}
+button:focus {
+  outline: 1px dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+/* glass-morphism */
+.glass {
+  background: hsla(0, 0%, 100%, 0.4);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 2px solid hsla(155, 92%, 53%, 0.2);
+}
+.glass:hover {
+  background: hsla(0, 0%, 100%, 0.7);
+  border: 2px solid #e52323;
 }
 /* 
 body {
@@ -59,14 +100,3 @@ a {
     color-scheme: dark;
   }
 } */
-.glass {
-  background: hsla(0, 0%, 100%, 0.4);
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-  border: 1px solid hsla(0, 0%, 100%, 0.2);
-}
-
-.glass:hover {
-  background: hsla(0, 0%, 100%, 0.7);
-  border: 1px solid #fff;
-}
